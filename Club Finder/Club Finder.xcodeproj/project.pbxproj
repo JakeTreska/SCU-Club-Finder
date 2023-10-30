@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB29CA972AEB6EDE00B95198 /* Club_FinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29CA962AEB6EDE00B95198 /* Club_FinderApp.swift */; };
+		AB29CA992AEB6EDE00B95198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29CA982AEB6EDE00B95198 /* ContentView.swift */; };
+		AB29CA9B2AEB6EE100B95198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB29CA9A2AEB6EE100B95198 /* Assets.xcassets */; };
+		AB29CA9E2AEB6EE100B95198 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB29CA9D2AEB6EE100B95198 /* Preview Assets.xcassets */; };
+		AB29CAA82AEB6EE100B95198 /* Club_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29CAA72AEB6EE100B95198 /* Club_FinderTests.swift */; };
+		AB29CAB22AEB6EE100B95198 /* Club_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29CAB12AEB6EE100B95198 /* Club_FinderUITests.swift */; };
+		AB29CAB42AEB6EE100B95198 /* Club_FinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29CAB32AEB6EE100B95198 /* Club_FinderUITestsLaunchTests.swift */; };
+		AB74B5162AEB83FC00B4F788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB74B5152AEB83FC00B4F788 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB29CAA42AEB6EE100B95198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB29CA8B2AEB6EDE00B95198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB29CA922AEB6EDE00B95198;
+			remoteInfo = "Club Finder";
+		};
+		AB29CAAE2AEB6EE100B95198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB29CA8B2AEB6EDE00B95198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB29CA922AEB6EDE00B95198;
+			remoteInfo = "Club Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB29CA932AEB6EDE00B95198 /* Club Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Club Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB29CA962AEB6EDE00B95198 /* Club_FinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club_FinderApp.swift; sourceTree = "<group>"; };
+		AB29CA982AEB6EDE00B95198 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB29CA9A2AEB6EE100B95198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB29CA9D2AEB6EE100B95198 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB29CAA32AEB6EE100B95198 /* Club FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Club FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB29CAA72AEB6EE100B95198 /* Club_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club_FinderTests.swift; sourceTree = "<group>"; };
+		AB29CAAD2AEB6EE100B95198 /* Club FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Club FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB29CAB12AEB6EE100B95198 /* Club_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club_FinderUITests.swift; sourceTree = "<group>"; };
+		AB29CAB32AEB6EE100B95198 /* Club_FinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club_FinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB74B5152AEB83FC00B4F788 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB29CA902AEB6EDE00B95198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB29CAA02AEB6EE100B95198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB29CAAA2AEB6EE100B95198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB29CA8A2AEB6EDE00B95198 = {
+			isa = PBXGroup;
+			children = (
+				AB29CA952AEB6EDE00B95198 /* Club Finder */,
+				AB29CAA62AEB6EE100B95198 /* Club FinderTests */,
+				AB29CAB02AEB6EE100B95198 /* Club FinderUITests */,
+				AB29CA942AEB6EDE00B95198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB29CA942AEB6EDE00B95198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB29CA932AEB6EDE00B95198 /* Club Finder.app */,
+				AB29CAA32AEB6EE100B95198 /* Club FinderTests.xctest */,
+				AB29CAAD2AEB6EE100B95198 /* Club FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB29CA952AEB6EDE00B95198 /* Club Finder */ = {
+			isa = PBXGroup;
+			children = (
+				AB29CA962AEB6EDE00B95198 /* Club_FinderApp.swift */,
+				AB29CA982AEB6EDE00B95198 /* ContentView.swift */,
+				AB29CA9A2AEB6EE100B95198 /* Assets.xcassets */,
+				AB29CA9C2AEB6EE100B95198 /* Preview Content */,
+				AB74B5152AEB83FC00B4F788 /* Main.storyboard */,
+			);
+			path = "Club Finder";
+			sourceTree = "<group>";
+		};
+		AB29CA9C2AEB6EE100B95198 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB29CA9D2AEB6EE100B95198 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB29CAA62AEB6EE100B95198 /* Club FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB29CAA72AEB6EE100B95198 /* Club_FinderTests.swift */,
+			);
+			path = "Club FinderTests";
+			sourceTree = "<group>";
+		};
+		AB29CAB02AEB6EE100B95198 /* Club FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB29CAB12AEB6EE100B95198 /* Club_FinderUITests.swift */,
+				AB29CAB32AEB6EE100B95198 /* Club_FinderUITestsLaunchTests.swift */,
+			);
+			path = "Club FinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB29CA922AEB6EDE00B95198 /* Club Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB29CAB72AEB6EE100B95198 /* Build configuration list for PBXNativeTarget "Club Finder" */;
+			buildPhases = (
+				AB29CA8F2AEB6EDE00B95198 /* Sources */,
+				AB29CA902AEB6EDE00B95198 /* Frameworks */,
+				AB29CA912AEB6EDE00B95198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Club Finder";
+			productName = "Club Finder";
+			productReference = AB29CA932AEB6EDE00B95198 /* Club Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB29CAA22AEB6EE100B95198 /* Club FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB29CABA2AEB6EE100B95198 /* Build configuration list for PBXNativeTarget "Club FinderTests" */;
+			buildPhases = (
+				AB29CA9F2AEB6EE100B95198 /* Sources */,
+				AB29CAA02AEB6EE100B95198 /* Frameworks */,
+				AB29CAA12AEB6EE100B95198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB29CAA52AEB6EE100B95198 /* PBXTargetDependency */,
+			);
+			name = "Club FinderTests";
+			productName = "Club FinderTests";
+			productReference = AB29CAA32AEB6EE100B95198 /* Club FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB29CAAC2AEB6EE100B95198 /* Club FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB29CABD2AEB6EE100B95198 /* Build configuration list for PBXNativeTarget "Club FinderUITests" */;
+			buildPhases = (
+				AB29CAA92AEB6EE100B95198 /* Sources */,
+				AB29CAAA2AEB6EE100B95198 /* Frameworks */,
+				AB29CAAB2AEB6EE100B95198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB29CAAF2AEB6EE100B95198 /* PBXTargetDependency */,
+			);
+			name = "Club FinderUITests";
+			productName = "Club FinderUITests";
+			productReference = AB29CAAD2AEB6EE100B95198 /* Club FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB29CA8B2AEB6EDE00B95198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					bruh,
+				);
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AB29CA922AEB6EDE00B95198 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					AB29CAA22AEB6EE100B95198 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = AB29CA922AEB6EDE00B95198;
+					};
+					AB29CAAC2AEB6EE100B95198 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = AB29CA922AEB6EDE00B95198;
+					};
+				};
+			};
+			buildConfigurationList = AB29CA8E2AEB6EDE00B95198 /* Build configuration list for PBXProject "Club Finder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB29CA8A2AEB6EDE00B95198;
+			productRefGroup = AB29CA942AEB6EDE00B95198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB29CA922AEB6EDE00B95198 /* Club Finder */,
+				AB29CAA22AEB6EE100B95198 /* Club FinderTests */,
+				AB29CAAC2AEB6EE100B95198 /* Club FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB29CA912AEB6EDE00B95198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB29CA9E2AEB6EE100B95198 /* Preview Assets.xcassets in Resources */,
+				AB29CA9B2AEB6EE100B95198 /* Assets.xcassets in Resources */,
+				AB74B5162AEB83FC00B4F788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB29CAA12AEB6EE100B95198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB29CAAB2AEB6EE100B95198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB29CA8F2AEB6EDE00B95198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB29CA992AEB6EDE00B95198 /* ContentView.swift in Sources */,
+				AB29CA972AEB6EDE00B95198 /* Club_FinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB29CA9F2AEB6EE100B95198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB29CAA82AEB6EE100B95198 /* Club_FinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB29CAA92AEB6EE100B95198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB29CAB42AEB6EE100B95198 /* Club_FinderUITestsLaunchTests.swift in Sources */,
+				AB29CAB22AEB6EE100B95198 /* Club_FinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB29CAA52AEB6EE100B95198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB29CA922AEB6EDE00B95198 /* Club Finder */;
+			targetProxy = AB29CAA42AEB6EE100B95198 /* PBXContainerItemProxy */;
+		};
+		AB29CAAF2AEB6EE100B95198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB29CA922AEB6EDE00B95198 /* Club Finder */;
+			targetProxy = AB29CAAE2AEB6EE100B95198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB29CAB52AEB6EE100B95198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB29CAB62AEB6EE100B95198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB29CAB82AEB6EE100B95198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Club Finder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSCI-187.Club-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB29CAB92AEB6EE100B95198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Club Finder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSCI-187.Club-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB29CABB2AEB6EE100B95198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSCI-187.Club-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Club Finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Club Finder";
+			};
+			name = Debug;
+		};
+		AB29CABC2AEB6EE100B95198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSCI-187.Club-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Club Finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Club Finder";
+			};
+			name = Release;
+		};
+		AB29CABE2AEB6EE100B95198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSCI-187.Club-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Club Finder";
+			};
+			name = Debug;
+		};
+		AB29CABF2AEB6EE100B95198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSCI-187.Club-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Club Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB29CA8E2AEB6EDE00B95198 /* Build configuration list for PBXProject "Club Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB29CAB52AEB6EE100B95198 /* Debug */,
+				AB29CAB62AEB6EE100B95198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB29CAB72AEB6EE100B95198 /* Build configuration list for PBXNativeTarget "Club Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB29CAB82AEB6EE100B95198 /* Debug */,
+				AB29CAB92AEB6EE100B95198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB29CABA2AEB6EE100B95198 /* Build configuration list for PBXNativeTarget "Club FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB29CABB2AEB6EE100B95198 /* Debug */,
+				AB29CABC2AEB6EE100B95198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB29CABD2AEB6EE100B95198 /* Build configuration list for PBXNativeTarget "Club FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB29CABE2AEB6EE100B95198 /* Debug */,
+				AB29CABF2AEB6EE100B95198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB29CA8B2AEB6EDE00B95198 /* Project object */;
+}
