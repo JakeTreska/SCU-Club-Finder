@@ -56,7 +56,7 @@
 		ABF4BEC32AF5B3C100B85F5B /* CSCI 187 ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSCI 187 ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF4BEC72AF5B3C100B85F5B /* CSCI_187_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSCI_187_ProjectUITests.swift; sourceTree = "<group>"; };
 		ABF4BEC92AF5B3C100B85F5B /* CSCI_187_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSCI_187_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		ABF4BED62AF5B43D00B85F5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../Club Finder/Club Finder/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		ABF4BED62AF5B43D00B85F5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "CSCI 187 Project/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
