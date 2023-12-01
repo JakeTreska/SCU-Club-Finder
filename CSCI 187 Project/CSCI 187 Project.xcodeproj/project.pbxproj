@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AB53263C2B0C378A0008ABB7 /* Club+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53263A2B0C378A0008ABB7 /* Club+CoreDataClass.swift */; };
 		AB53263D2B0C378A0008ABB7 /* Club+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53263B2B0C378A0008ABB7 /* Club+CoreDataProperties.swift */; };
-		AB70B07C2AF5B73200B128C1 /* SCU_IMAGE.png in Resources */ = {isa = PBXBuildFile; fileRef = AB70B07B2AF5B73200B128C1 /* SCU_IMAGE.png */; };
 		ABA52ADD2B185BDF00A78372 /* App_User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA52ADC2B185BDF00A78372 /* App_User+CoreDataProperties.swift */; };
 		ABA52ADF2B185C0C00A78372 /* App_User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA52ADE2B185C0C00A78372 /* App_User+CoreDataClass.swift */; };
 		ABF4BEA42AF5B3BE00B85F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4BEA32AF5B3BE00B85F5B /* AppDelegate.swift */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		AB53263A2B0C378A0008ABB7 /* Club+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Club+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AB53263B2B0C378A0008ABB7 /* Club+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Club+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		AB70B07B2AF5B73200B128C1 /* SCU_IMAGE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SCU_IMAGE.png; path = ../../SCU_IMAGE.png; sourceTree = "<group>"; };
 		ABA52ADC2B185BDF00A78372 /* App_User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App_User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		ABA52ADE2B185C0C00A78372 /* App_User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App_User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		ABF4BEA02AF5B3BE00B85F5B /* CSCI 187 Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSCI 187 Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +49,7 @@
 		ABF4BEA52AF5B3BE00B85F5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ABF4BEA72AF5B3BE00B85F5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABF4BEAD2AF5B3BE00B85F5B /* CSCI_187_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CSCI_187_Project.xcdatamodel; sourceTree = "<group>"; };
-		ABF4BEAF2AF5B3C000B85F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF4BEAF2AF5B3C000B85F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "CSCI 187 Project/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		ABF4BEB42AF5B3C000B85F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF4BEB92AF5B3C100B85F5B /* CSCI 187 ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSCI 187 ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF4BEBD2AF5B3C100B85F5B /* CSCI_187_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSCI_187_ProjectTests.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				ABF4BEA52AF5B3BE00B85F5B /* SceneDelegate.swift */,
 				ABF4BEA72AF5B3BE00B85F5B /* ViewController.swift */,
 				ABF4BED62AF5B43D00B85F5B /* Main.storyboard */,
-				AB70B07B2AF5B73200B128C1 /* SCU_IMAGE.png */,
 				ABF4BEAF2AF5B3C000B85F5B /* Assets.xcassets */,
 				ABF4BEB42AF5B3C000B85F5B /* Info.plist */,
 				ABF4BEAC2AF5B3BE00B85F5B /* CSCI_187_Project.xcdatamodeld */,
@@ -246,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB70B07C2AF5B73200B128C1 /* SCU_IMAGE.png in Resources */,
 				ABF4BEB02AF5B3C000B85F5B /* Assets.xcassets in Resources */,
 				ABF4BED72AF5B43D00B85F5B /* Main.storyboard in Resources */,
 			);

@@ -14,9 +14,12 @@ class ViewController: UIViewController {
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
+    @IBOutlet weak var image_view: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        image_view.image = UIImage(named: "Logo")
     }
     
     // Search Button
@@ -28,6 +31,8 @@ class ViewController: UIViewController {
             self.emptyProfile()
                 }
         }
+    
+    
     // Check if user info is empty
     func ProfileIsNotEmpty() -> Bool{
         do{
